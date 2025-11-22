@@ -6,10 +6,18 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pratikjais1505/Blog-api.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Pratikjais1505/Blog-api/issues"
+  },
+  "homepage": "https://github.com/Pratikjais1505/Blog-api#readme",
   "dependencies": {
     "body-parser": "^2.2.0",
     "express": "^5.1.0",

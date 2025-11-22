@@ -3,11 +3,11 @@ const mongoose = require('mongoose');
 const postSchema = new mongoose.Schema({
   title: {
     type: String,
-    required: true, 
+    required: true, // validation
   },
   content: {
     type: String,
-    required: true, 
+    required: true, // validation
   },
   author: {
     type: String,
@@ -20,3 +20,4 @@ const postSchema = new mongoose.Schema({
 });
 
 module.exports = mongoose.model('Post', postSchema);
+
